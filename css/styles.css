@@ -1,13 +1,34 @@
 
 #greeting
 {
-    margin: 0 auto;
-    width: 10%;
+    margin: 50px auto 0 auto;
+    width: 45%;
+    font-size: 6rem;
+    
+
 }
 
+#aProgrammer
+{
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+h1
+{
+    
+    font-family: 'Montez', cursive;
+    color: #497174
+}
+h2,h3
+{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #497174
+}
 /*font-family: 'BenchNine', sans-serif;
-font-family: 'Nanum Gothic', sans-serif;
 font-family: 'Square Peg', cursive;
+font-family: 'Nanum Gothic', sans-serif;
+
 */
 body
 {   
@@ -52,6 +73,11 @@ body
     position: absolute;
     left: 600px;
     bottom: 600px;
+}
+
+#mountain
+{
+    width: 60%;
 }
 
 .webDevPicture
