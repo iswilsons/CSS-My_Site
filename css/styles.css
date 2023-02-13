@@ -30,6 +30,11 @@ font-family: 'Square Peg', cursive;
 font-family: 'Nanum Gothic', sans-serif;
 
 */
+
+hr
+{
+    margin: 5% auto;
+}
 body
 {   
     /* font-family: 'BenchNine', sans-serif; */
@@ -54,32 +59,46 @@ body
 
 .bottomContainer
 {
-    
+    /* height: 20%; */
+    background-color: #D6E4E5;
+    height: 200px;
+
 }
 
 #displayPicture
 {
     height: 350px;
+    border-radius: 50%;
 }
 
 #cloudTop
 {
     position: absolute;
-    right: 600px;
+    right: 400px;
     top: 50px; 
+    opacity: 50%;
 
 }
 
 #cloudBottom
 {
     position: absolute;
-    left: 600px;
+    left: 400px;
     bottom: 600px;
+    opacity: 50%;
 }
 
 #mountain
 {
     width: 55%;
+    opacity: 30%;
+}
+
+#copywrite
+{
+    /* margin-bottom: 0; */
+    position: relative;
+    top: 15%;
 }
 
 .webDevPicture
@@ -120,6 +139,11 @@ body
    overflow: hidden;*/
 }
 
+.profile
+{
+    width: 50%;
+    margin: auto;
+}
 .skillRow
 {
     width: 50%;
@@ -129,8 +153,60 @@ body
     
 }
 
+.contactMe
+{
+    margin-bottom: 100px;
+}
+
 .sections
 {
     text-align: left;
     line-height: 2;
+    margin: 1% auto;
 }
+
+
+.btn {
+    background: #35e6ce;
+    background-image: -webkit-linear-gradient(top, #35e6ce, #067364);
+    background-image: -moz-linear-gradient(top, #35e6ce, #067364);
+    background-image: -ms-linear-gradient(top, #35e6ce, #067364);
+    background-image: -o-linear-gradient(top, #35e6ce, #067364);
+    background-image: linear-gradient(to bottom, #35e6ce, #067364);
+    -webkit-border-radius: 21;
+    -moz-border-radius: 21;
+    border-radius: 21px;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #daebeb;
+    background-image: -webkit-linear-gradient(top, #daebeb, #497174);
+    background-image: -moz-linear-gradient(top, #daebeb, #497174);
+    background-image: -ms-linear-gradient(top, #daebeb, #497174);
+    background-image: -o-linear-gradient(top, #daebeb, #497174);
+    background-image: linear-gradient(to bottom, #daebeb, #497174);
+    text-decoration: none;
+  }
+
+  .footer-link
+  {
+    position: relative;
+    top: 15%;
+    color: #497174;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto 20px;
+    text-decoration: none;
+    
+  }
+  a:hover
+  {
+    color:#b1f8ee;
+    
+  }
+
+  
